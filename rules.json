@@ -1,0 +1,521 @@
+{
+  "SaveDuration": 600,
+  "Rules": [
+    {
+      "Listen": 2020,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1086,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1876,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1073,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1794,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1851,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1071,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1045,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1326,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1901,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1674,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1967,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1573,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1680,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1713,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1260,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1397,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1961,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1849,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1578,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1265,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1187,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1314,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1781,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1953,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1016,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1827,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1048,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1518,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1230,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1976,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1921,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1916,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1269,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1587,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1620,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1847,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1903,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1483,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1701,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1104,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1607,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1425,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1802,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1147,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1930,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1078,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1386,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1681,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1310,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1605,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1416,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1769,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1139,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1712,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1576,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1527,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1356,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1413,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1803,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1293,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1074,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1201,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1306,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1826,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1754,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1796,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1902,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1419,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1782,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1084,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1853,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1746,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1026,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1361,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1237,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1507,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1758,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1564,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1816,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1164,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1475,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1163,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1516,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1732,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }, 
+    {
+      "Listen": 1654,
+      "Forward": "116.203.150.25:443",
+      "Quota": 104857600000,
+      "Simultaneous": 8
+    }
+  ]
+}

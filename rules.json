@@ -2,7 +2,7 @@
   "SaveDuration": 600,
   "Rules": [
     {
-      "Listen": 443,
+      "Listen": 1010,
       "Forward": "116.203.16.209:443",
       "Quota": 104857600000,
       "Simultaneous": 10

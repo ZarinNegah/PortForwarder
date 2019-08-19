@@ -17,10 +17,6 @@ if [ ${OS} == CentOS ]; then
                 sudo yum upgrade -y
                 sudo yum install wget nano -y
                 sudo yum install epel-release -y
-                sudo yum search htop -y
-                sudo yum info htop -y
-                sudo yum install htop -y
-                yum install nload -y
                 yum install tmux -y
                 yum -y install screen
 fi

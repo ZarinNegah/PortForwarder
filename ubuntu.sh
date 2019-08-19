@@ -23,9 +23,7 @@ sudo apt install golang -y
 sudo wget -N --no-check-certificate https://raw.githubusercontent.com/ZarinNegah/PortForwarder/master/main.go
 sudo wget -N --no-check-certificate https://raw.githubusercontent.com/ZarinNegah/PortForwarder/master/rules.json
 sudo go build main.go
-if [ -z "$TMUX" ]; then
-    ./main
-fi 
+tmux new -d -s port "./main"
 
 # Display Service Information
 clear

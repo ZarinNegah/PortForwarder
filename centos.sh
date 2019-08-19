@@ -2,36 +2,6 @@
 # Anything wrong? Find me via telegram:@MTProtoConfiger #
 #########################################################
 
-#!/usr/bin/env bash
-PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-export PATH
-
-#Check Root
-[ $(id -u) != "0" ] && { echo "${CFAILURE}Error: You must be root to run this script${CEND}"; exit 1; }
-
-#Check OS
-if [ -n "$(grep 'Aliyun Linux release' /etc/issue)" -o -e /etc/redhat-release ]; then
-  OS=CentOS
-  [ -n "$(grep ' 7\.' /etc/redhat-release)" ] && CentOS_RHEL_version=7
-  [ -n "$(grep ' 6\.' /etc/redhat-release)" -o -n "$(grep 'Aliyun Linux release6 15' /etc/issue)" ] && CentOS_RHEL_version=6
-  [ -n "$(grep ' 5\.' /etc/redhat-release)" -o -n "$(grep 'Aliyun Linux release5' /etc/issue)" ] && CentOS_RHEL_version=5
-elif [ -n "$(grep 'Amazon Linux AMI release' /etc/issue)" -o -e /etc/system-release ]; then
-  OS=CentOS
-  CentOS_RHEL_version=6
-else
-  echo "${CFAILURE}Does not support this OS, Please contact the author! ${CEND}"
-  kill -9 $$
-fi
-
-# Detect CPU Threads
-THREAD=$(grep 'processor' /proc/cpuinfo | sort -u | wc -l)
-
-# Define the Terminal Color
-red='\033[0;31m'
-green='\033[0;32m'
-yellow='\033[0;33m'
-plain='\033[0m'
-
 # Print Welcome Message
 clear
 echo "---------------------------------------------"
@@ -54,9 +24,6 @@ if [ ${OS} == CentOS ]; then
                 yum install tmux -y
                 yum -y install screen
 fi
-
-# Get Native IP Address
-IP=$(curl -4 -s ip.sb)
 
 # Download PortForwarder project source code
 if [[ ${OS} == CentOS ]]; then

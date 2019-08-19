@@ -32,7 +32,9 @@ if [[ ${OS} == CentOS ]]; then
 fi
 sudo go build main.go
 sudo tmux
-./main
+if [ -z "$TMUX" ]; then
+    ./main
+fi 
 
 # Display Service Information
 clear

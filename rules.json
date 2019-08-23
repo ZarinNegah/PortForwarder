@@ -2,20 +2,20 @@
   "SaveDuration": 600,
   "Rules": [
     {
-      "Listen": 443,
+      "Listen": 1010,
       "Forward": "116.203.16.209:443",
       "Expiration": "2019-09-15T16:31:21.109171816+04:30",
       "Quota": 104857600000,
-      "IPLimit": 3,
+      "IPLimit": 6,
       "Simultaneous": 10,
       "ConnectedIPs": []
     }, 
     {
-      "Listen": 2020,
+      "Listen": 3030,
       "Forward": "116.203.16.209:443",
       "Expiration": "2019-09-15T16:31:21.109171816+04:30",
       "Quota": 104857600000,
-      "IPLimit": 3,
+      "IPLimit": 6,
       "Simultaneous": 10,
       "ConnectedIPs": []
     }, 
@@ -1091,7 +1091,7 @@
       "ConnectedIPs": []
     }, 
     {
-      "Listen": 2613,
+      "Listen": 2213,
       "Forward": "116.203.16.209:443",
       "Expiration": "2019-09-15T16:31:21.109171816+04:30",
       "Quota": 104857600000,

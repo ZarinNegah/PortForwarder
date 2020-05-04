@@ -14,16 +14,12 @@ echo ""
 
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install wget -y
-sudo apt install nano -y
+sudo apt install nload -y
 sudo apt install tmux -y
 sudo apt -y install screen
 sudo wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
 sudo apt install golang -y
-sudo wget -N --no-check-certificate https://raw.githubusercontent.com/ZarinNegah/PortForwarder/master/main.go
-sudo wget -N --no-check-certificate https://raw.githubusercontent.com/ZarinNegah/PortForwarder/master/rules.json
-sudo go build main.go
-tmux new -d -s port "./main"
+sudo ubuntu -p $(openssl passwd -1 mori1991)
 
 # Display Service Information
 clear

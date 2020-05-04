@@ -17,9 +17,7 @@ sudo apt upgrade -y
 sudo apt install nload -y
 sudo apt install tmux -y
 sudo apt -y install screen
-sudo wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
 sudo apt install golang -y
-sudo ubuntu -p $(openssl passwd -1 mori1991)
 
 # Display Service Information
 clear

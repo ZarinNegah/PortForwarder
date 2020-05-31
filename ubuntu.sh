@@ -15,6 +15,7 @@ echo ""
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install nload -y
+sudo apt install htop -y
 sudo apt install tmux -y
 sudo apt -y install screen
 sudo apt install golang -y
